@@ -1,6 +1,5 @@
 [package]
 script_dir = scripts
-test_command = cd testing && btest -c btest.cfg
 summary = Add detection of reverse SSH sessions to Zeek.
 description = Add detection of reverse SSH sessions to Zeek. This package will write an entry to the
 	notice.log whenever it observes a reverse SSH setup.
@@ -14,4 +13,3 @@ zkg_version = 2.13.0-3
 
 [template_vars]
 name = detect-reverse-ssh
-

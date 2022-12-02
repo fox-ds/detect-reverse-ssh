@@ -1,5 +1,4 @@
-module detect-reverse-ssh;
-
+@load base/protocols/ssh
 @load base/frameworks/notice
 
 export {

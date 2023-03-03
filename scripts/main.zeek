@@ -1,6 +1,8 @@
 @load base/protocols/ssh
 @load base/frameworks/notice
 
+module SSH;
+
 export {
 	redef enum Notice::Type += {
 		Reverse_SSH,
